@@ -1,0 +1,106 @@
+body {
+    background-color: #E0F5FA;
+    font-family: Montserrat;
+}
+
+.col {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    margin-left: 64px;
+    margin-right: 64px;
+    font-size: 20px;
+    width: 600px;
+    height: 500px;
+}
+
+a {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1CC8EE;
+}
+
+button {
+    font-family: Montserrat;
+    background-color: white;
+    border: 4px solid #1CC8EE;
+    color: #1CC8EE;
+    width: 250px;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1CC8EE;
+    color: white;
+}
+
+.containerSlider {
+    margin-top: 64px;
+    margin-left: 21%;
+    width: 1000px;
+    position: relative;
+    border: 8px solid #98E8FA;
+    margin-bottom: 64px;
+}
+
+.Plans {
+    color: #1CC8EE;
+    margin-top: 128px;
+    margin-left: 21%;
+}
+
+.Slider {
+    display: none;
+}
+.Slider img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left_arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    padding: 10px;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: #98E8FA;
+    color: #f0fcf7;
+
+}
+.right_arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    right: -8px;
+    padding: 10px;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: #98E8FA;
+    color: #f0fcf7;
+}
+
+.right_arrow:hover {
+    background-color: #1CC8EE;
+}
+
+.left_arrow:hover {
+    background-color: #1CC8EE;
+}
+
+.Roadmap {
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.Roadmap img {
+    width: 100%;
+}
